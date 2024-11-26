@@ -3,13 +3,13 @@
 const {
   getValueSync,
   getValue
-} = require('@evershop/evershop/src/lib/util/registry');
-const { select } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@annapoorani/annapoorani/src/lib/util/registry');
+const { select } = require('@annapoorani/postgres-query-builder');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 const { v4: uuidv4 } = require('uuid');
 const {
   translate
-} = require('@evershop/evershop/src/lib/locale/translate/translate');
+} = require('@annapoorani/annapoorani/src/lib/locale/translate/translate');
 const { DataObject } = require('./DataObject');
 // eslint-disable-next-line no-multi-assign
 module.exports = exports = {};

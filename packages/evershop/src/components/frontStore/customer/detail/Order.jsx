@@ -1,4 +1,4 @@
-import { _ } from '@evershop/evershop/src/lib/locale/translate';
+import { _ } from '@annapoorani/annapoorani/src/lib/locale/translate';
 import PropTypes from 'prop-types';
 import React from 'react';
 import ProductNoThumbnail from '@components/common/ProductNoThumbnail';

@@ -1,6 +1,6 @@
 const { GraphQLJSON } = require('graphql-type-json');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
+const { camelCase } = require('@annapoorani/annapoorani/src/lib/util/camelCase');
 const {
   getCouponsBaseQuery
 } = require('../../../services/getCouponsBaseQuery');

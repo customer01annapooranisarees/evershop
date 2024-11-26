@@ -1,6 +1,6 @@
-const { select } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { OK } = require('@evershop/evershop/src/lib/util/httpStatus');
+const { select } = require('@annapoorani/postgres-query-builder');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { OK } = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, stack, next) => {

@@ -1,7 +1,7 @@
 const cron = require('node-cron');
 const isResolvable = require('is-resolvable');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 
 module.exports = exports;
 

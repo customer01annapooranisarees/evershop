@@ -1,4 +1,4 @@
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 const normalizePort = require('./normalizePort');
 
 const port = normalizePort();

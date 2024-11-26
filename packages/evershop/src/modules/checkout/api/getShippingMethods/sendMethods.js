@@ -1,13 +1,13 @@
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const normalizePort = require('@evershop/evershop/bin/lib/normalizePort');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
+const normalizePort = require('@annapoorani/annapoorani/bin/lib/normalizePort');
 const {
   OK,
   INTERNAL_SERVER_ERROR,
   INVALID_PAYLOAD
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
 const { default: axios } = require('axios');
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@annapoorani/postgres-query-builder');
 const { toPrice } = require('../../services/toPrice');
 
 // eslint-disable-next-line no-unused-vars

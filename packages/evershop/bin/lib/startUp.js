@@ -1,15 +1,15 @@
 const http = require('http');
 const config = require('config');
-const { Handler } = require('@evershop/evershop/src/lib/middleware/Handler');
+const { Handler } = require('@annapoorani/annapoorani/src/lib/middleware/Handler');
 const spawn = require('cross-spawn');
 const path = require('path');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
-const isDevelopmentMode = require('@evershop/evershop/src/lib/util/isDevelopmentMode');
-const { lockHooks } = require('@evershop/evershop/src/lib/util/hookable');
-const { lockRegistry } = require('@evershop/evershop/src/lib/util/registry');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
+const isDevelopmentMode = require('@annapoorani/annapoorani/src/lib/util/isDevelopmentMode');
+const { lockHooks } = require('@annapoorani/annapoorani/src/lib/util/hookable');
+const { lockRegistry } = require('@annapoorani/annapoorani/src/lib/util/registry');
 const {
   validateConfiguration
-} = require('@evershop/evershop/src/lib/util/validateConfiguration');
+} = require('@annapoorani/annapoorani/src/lib/util/validateConfiguration');
 const { createApp } = require('./app');
 const normalizePort = require('./normalizePort');
 const onListening = require('./onListening');

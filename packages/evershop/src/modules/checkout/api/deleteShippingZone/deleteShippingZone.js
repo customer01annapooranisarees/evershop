@@ -5,16 +5,16 @@ const {
   startTransaction,
   del,
   select
-} = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 const {
   OK,
   INTERNAL_SERVER_ERROR,
   INVALID_PAYLOAD
-} = require('@evershop/evershop/src/lib/util/httpStatus');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, deledate, next) => {

@@ -6,11 +6,11 @@ const {
   insert,
   rollback,
   select
-} = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/postgres-query-builder');
 const {
   pool,
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 
 module.exports = exports;
 

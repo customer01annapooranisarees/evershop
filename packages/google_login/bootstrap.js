@@ -1,5 +1,5 @@
-const { merge } = require('@evershop/evershop/src/lib/util/merge');
-const { addProcessor } = require('@evershop/evershop/src/lib/util/registry');
+const { merge } = require('@annapoorani/annapoorani/src/lib/util/merge');
+const { addProcessor } = require('@annapoorani/annapoorani/src/lib/util/registry');
 
 module.exports = () => {
   addProcessor('configuratonSchema', (schema) => {

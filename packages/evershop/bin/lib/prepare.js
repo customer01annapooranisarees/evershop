@@ -1,4 +1,4 @@
-const { getAdminRoutes } = require('@evershop/evershop/src/lib/router/Router');
+const { getAdminRoutes } = require('@annapoorani/annapoorani/src/lib/router/Router');
 
 module.exports = exports = {};
 

@@ -22,8 +22,8 @@ module.exports = exports = (request, response, next) => {
 
   if (path.endsWith('/')) {
     response.status(404).send('Not Found');
-  } else if (existsSync(join(CONSTANTS.ROOTPATH, '.evershop/build', path))) {
-    staticMiddleware(join(CONSTANTS.ROOTPATH, '.evershop/build'))(
+  } else if (existsSync(join(CONSTANTS.ROOTPATH, '.annapoorani/build', path))) {
+    staticMiddleware(join(CONSTANTS.ROOTPATH, '.annapoorani/build'))(
       request,
       response,
       next

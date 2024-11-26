@@ -1,4 +1,4 @@
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@annapoorani/postgres-query-builder');
 
 module.exports.getWidgetsBaseQuery = () => {
   const query = select().from('widget');

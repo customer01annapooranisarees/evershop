@@ -2,11 +2,11 @@ const {
   INVALID_PAYLOAD,
   INTERNAL_SERVER_ERROR,
   OK
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
 const {
   translate
-} = require('@evershop/evershop/src/lib/locale/translate/translate');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/annapoorani/src/lib/locale/translate/translate');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 const { getCartByUUID } = require('../../services/getCartByUUID');
 const { saveCart } = require('../../services/saveCart');
 

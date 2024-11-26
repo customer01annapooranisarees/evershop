@@ -1,4 +1,4 @@
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 
 module.exports.calculateTaxAmount = function calculateTaxAmount(
   taxPercentage,

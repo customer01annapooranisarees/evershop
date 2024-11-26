@@ -1,5 +1,5 @@
 const config = require('config');
-const { merge } = require('@evershop/evershop/src/lib/util/merge');
+const { merge } = require('@annapoorani/annapoorani/src/lib/util/merge');
 const registerDefaultOrderCollectionFilters = require('./services/registerDefaultOrderCollectionFilters');
 const {
   defaultPaginationFilters

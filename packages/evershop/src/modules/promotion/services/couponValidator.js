@@ -1,5 +1,5 @@
-const { info } = require('@evershop/evershop/src/lib/log/logger');
-const { getValueSync } = require('@evershop/evershop/src/lib/util/registry');
+const { info } = require('@annapoorani/annapoorani/src/lib/log/logger');
+const { getValueSync } = require('@annapoorani/annapoorani/src/lib/util/registry');
 
 /**
  * This method validate a coupon.

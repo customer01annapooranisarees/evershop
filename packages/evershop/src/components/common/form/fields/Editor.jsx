@@ -24,7 +24,7 @@ async function loadEditorJS() {
 }
 
 async function loadEditorJSImage() {
-  const { default: ImageTool } = await import('@evershop/editorjs-image');
+  const { default: ImageTool } = await import('@annapoorani/editorjs-image');
   return ImageTool;
 }
 

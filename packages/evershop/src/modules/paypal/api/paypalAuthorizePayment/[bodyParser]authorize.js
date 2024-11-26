@@ -1,11 +1,11 @@
-const { select, update, insert } = require('@evershop/postgres-query-builder');
+const { select, update, insert } = require('@annapoorani/postgres-query-builder');
 const { default: axios } = require('axios');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 const {
   INVALID_PAYLOAD,
   OK,
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
 const { getContextValue } = require('../../../graphql/services/contextHelper');
 const { getApiBaseUrl } = require('../../services/getApiBaseUrl');
 

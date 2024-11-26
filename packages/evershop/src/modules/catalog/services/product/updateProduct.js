@@ -1,8 +1,8 @@
-const { hookable } = require('@evershop/evershop/src/lib/util/hookable');
+const { hookable } = require('@annapoorani/annapoorani/src/lib/util/hookable');
 const {
   getValueSync,
   getValue
-} = require('@evershop/evershop/src/lib/util/registry');
+} = require('@annapoorani/annapoorani/src/lib/util/registry');
 const {
   startTransaction,
   commit,
@@ -12,11 +12,11 @@ const {
   update,
   insertOnUpdate,
   del
-} = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 const { getAjv } = require('../../../base/services/getAjv');
 const productDataSchema = require('./productDataSchema.json');
 

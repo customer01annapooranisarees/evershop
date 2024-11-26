@@ -1,4 +1,4 @@
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
 
 module.exports = {
   Product: {

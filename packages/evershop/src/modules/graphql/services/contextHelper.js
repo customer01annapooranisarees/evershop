@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-const { get } = require('@evershop/evershop/src/lib/util/get');
+const { get } = require('@annapoorani/annapoorani/src/lib/util/get');
 
 module.exports.getContextValue = function getContextValue(
   request,

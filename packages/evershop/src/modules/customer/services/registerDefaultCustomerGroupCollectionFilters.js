@@ -1,7 +1,7 @@
 const {
   OPERATION_MAP
-} = require('@evershop/evershop/src/lib/util/filterOperationMapp');
-const { getValueSync } = require('@evershop/evershop/src/lib/util/registry');
+} = require('@annapoorani/annapoorani/src/lib/util/filterOperationMapp');
+const { getValueSync } = require('@annapoorani/annapoorani/src/lib/util/registry');
 
 module.exports =
   async function registerDefaultCustomerGroupCollectionFilters() {

@@ -1,8 +1,8 @@
 const {
   translate
-} = require('@evershop/evershop/src/lib/locale/translate/translate');
-const { get } = require('@evershop/evershop/src/lib/util/get');
-const { select } = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/annapoorani/src/lib/locale/translate/translate');
+const { get } = require('@annapoorani/annapoorani/src/lib/util/get');
+const { select } = require('@annapoorani/postgres-query-builder');
 
 module.exports = {
   Query: {

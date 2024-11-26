@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require('uuid');
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@annapoorani/postgres-query-builder');
 
 module.exports = {
   Product: {

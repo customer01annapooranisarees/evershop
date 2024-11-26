@@ -1,6 +1,6 @@
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { getValue } = require('@evershop/evershop/src/lib/util/registry');
+const { camelCase } = require('@annapoorani/annapoorani/src/lib/util/camelCase');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { getValue } = require('@annapoorani/annapoorani/src/lib/util/registry');
 
 class TaxClassCollection {
   constructor(baseQuery) {

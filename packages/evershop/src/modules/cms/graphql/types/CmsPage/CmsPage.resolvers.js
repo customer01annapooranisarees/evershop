@@ -1,6 +1,6 @@
 const { v4: uuidv4 } = require('uuid');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
+const { camelCase } = require('@annapoorani/annapoorani/src/lib/util/camelCase');
 const {
   getCmsPagesBaseQuery
 } = require('../../../services/getCmsPagesBaseQuery');

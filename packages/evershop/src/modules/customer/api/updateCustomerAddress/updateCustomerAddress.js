@@ -1,11 +1,11 @@
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
 const {
   OK,
   INTERNAL_SERVER_ERROR,
   INVALID_PAYLOAD
-} = require('@evershop/evershop/src/lib/util/httpStatus');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { select } = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { select } = require('@annapoorani/postgres-query-builder');
 const updateCustomerAddress = require('../../services/customer/address/updateCustomerAddress');
 
 // eslint-disable-next-line no-unused-vars

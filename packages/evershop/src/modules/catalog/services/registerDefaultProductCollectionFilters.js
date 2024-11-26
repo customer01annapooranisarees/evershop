@@ -1,9 +1,9 @@
 const uniqid = require('uniqid');
-const { value } = require('@evershop/postgres-query-builder');
+const { value } = require('@annapoorani/postgres-query-builder');
 const {
   OPERATION_MAP
-} = require('@evershop/evershop/src/lib/util/filterOperationMapp');
-const { getValueSync } = require('@evershop/evershop/src/lib/util/registry');
+} = require('@annapoorani/annapoorani/src/lib/util/filterOperationMapp');
+const { getValueSync } = require('@annapoorani/annapoorani/src/lib/util/registry');
 
 module.exports = async function registerDefaultProductCollectionFilters() {
   // List of default supported filters

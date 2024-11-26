@@ -1,16 +1,16 @@
-const { update, select } = require('@evershop/postgres-query-builder');
+const { update, select } = require('@annapoorani/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+} = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
 const {
   OK,
   INTERNAL_SERVER_ERROR,
   INVALID_PAYLOAD
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
 const {
   hashPassword
-} = require('@evershop/evershop/src/lib/util/passwordHelper');
+} = require('@annapoorani/annapoorani/src/lib/util/passwordHelper');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, delegate, next) => {

@@ -1,9 +1,9 @@
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 const { v4: uuidv4 } = require('uuid');
 const {
   getEnabledWidgets
-} = require('@evershop/evershop/src/lib/util/getEnabledWidgets');
-const { select } = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/annapoorani/src/lib/util/getEnabledWidgets');
+const { select } = require('@annapoorani/postgres-query-builder');
 
 module.exports = exports = {};
 

@@ -4,13 +4,13 @@
 const express = require('express');
 const {
   getModuleMiddlewares
-} = require('@evershop/evershop/src/lib/middleware');
-const { getRoutes } = require('@evershop/evershop/src/lib/router/Router');
+} = require('@annapoorani/annapoorani/src/lib/middleware');
+const { getRoutes } = require('@annapoorani/annapoorani/src/lib/router/Router');
 const {
   loadModuleRoutes
-} = require('@evershop/evershop/src/lib/router/loadModuleRoutes');
-const { Handler } = require('@evershop/evershop/src/lib/middleware/Handler');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/annapoorani/src/lib/router/loadModuleRoutes');
+const { Handler } = require('@annapoorani/annapoorani/src/lib/middleware/Handler');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 const { getCoreModules } = require('./loadModules');
 const { addDefaultMiddlewareFuncs } = require('./addDefaultMiddlewareFuncs');
 const { getEnabledExtensions } = require('../extension');

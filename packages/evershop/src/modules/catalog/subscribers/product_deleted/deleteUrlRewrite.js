@@ -1,5 +1,5 @@
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { execute } = require('@evershop/postgres-query-builder');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { execute } = require('@annapoorani/postgres-query-builder');
 
 module.exports = async function buildUrlReWrite(data) {
   const productUuid = data.uuid;

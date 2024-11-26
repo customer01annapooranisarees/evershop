@@ -1,14 +1,14 @@
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 const {
   getGoogleAuthToken
-} = require('@evershop/google_login/services/getGoogleAuthToken');
+} = require('@annapoorani/google_login/services/getGoogleAuthToken');
 const {
   getGoogleUserInfo
-} = require('@evershop/google_login/services/getGoogleUserInfo');
-const { select, insert } = require('@evershop/postgres-query-builder');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/google_login/services/getGoogleUserInfo');
+const { select, insert } = require('@annapoorani/postgres-query-builder');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 
 /* eslint-disable-next-line no-unused-vars */
 module.exports = async (request, response, delegate, next) => {

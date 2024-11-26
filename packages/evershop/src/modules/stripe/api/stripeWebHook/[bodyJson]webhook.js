@@ -6,13 +6,13 @@ const {
   commit,
   rollback,
   select
-} = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
-const { emit } = require('@evershop/evershop/src/lib/event/emitter');
-const { debug } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
+const { emit } = require('@annapoorani/annapoorani/src/lib/event/emitter');
+const { debug } = require('@annapoorani/annapoorani/src/lib/log/logger');
 const { display } = require('zero-decimal-currencies');
 const { getSetting } = require('../../../setting/services/setting');
 

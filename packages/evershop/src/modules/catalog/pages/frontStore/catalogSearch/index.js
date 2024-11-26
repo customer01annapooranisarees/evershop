@@ -1,10 +1,10 @@
 const {
   translate
-} = require('@evershop/evershop/src/lib/locale/translate/translate');
-const { get } = require('@evershop/evershop/src/lib/util/get');
+} = require('@annapoorani/annapoorani/src/lib/locale/translate/translate');
+const { get } = require('@annapoorani/annapoorani/src/lib/util/get');
 const {
   setContextValue
-} = require('@evershop/evershop/src/modules/graphql/services/contextHelper');
+} = require('@annapoorani/annapoorani/src/modules/graphql/services/contextHelper');
 
 module.exports = (request, response, delegate, next) => {
   // Get the keyword from the request query

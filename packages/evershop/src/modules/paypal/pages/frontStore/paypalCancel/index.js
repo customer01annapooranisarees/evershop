@@ -1,6 +1,6 @@
-const { select, update } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { select, update } = require('@annapoorani/postgres-query-builder');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
 
 module.exports = async (request, response) => {
   // When the user cancelled the payment from PayPal

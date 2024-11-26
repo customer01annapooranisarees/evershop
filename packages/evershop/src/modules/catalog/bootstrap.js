@@ -1,5 +1,5 @@
 const config = require('config');
-const { merge } = require('@evershop/evershop/src/lib/util/merge');
+const { merge } = require('@annapoorani/annapoorani/src/lib/util/merge');
 const { addProcessor } = require('../../lib/util/registry');
 const registerDefaultProductCollectionFilters = require('./services/registerDefaultProductCollectionFilters');
 const registerDefaultCategoryCollectionFilters = require('./services/registerDefaultCategoryCollectionFilters');
@@ -181,9 +181,9 @@ module.exports = () => {
   const widgets = {
     collection_products: {
       setting_component:
-        '@evershop/evershop/src/components/admin/widgets/CollectionProductsSetting.jsx',
+        '@annapoorani/annapoorani/src/components/admin/widgets/CollectionProductsSetting.jsx',
       component:
-        '@evershop/evershop/src/components/frontStore/widgets/CollectionProducts.jsx',
+        '@annapoorani/annapoorani/src/components/frontStore/widgets/CollectionProducts.jsx',
       name: 'Collection products',
       description: 'A list of products from a collection',
       default_settings: {

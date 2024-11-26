@@ -1,21 +1,21 @@
 {
-  "name": "@evershop/sendgrid",
+  "name": "@annapoorani/sendgrid",
   "version": "1.0.1",
-  "description": "A SendGrid extension for EverShop.",
+  "description": "A SendGrid extension for annapoorani.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evershopcommerce/evershop/tree/main/packages/sendgrid"
+    "url": "git+https://github.com/annapooranicommerce/annapoorani/tree/main/packages/sendgrid"
   },
   "keywords": [
-    "EverShop email",
-    "EverShop SendGrid"
+    "annapoorani email",
+    "annapoorani SendGrid"
   ],
-  "author": "The Nguyen (https://evershop.io/)",
+  "author": "The Nguyen (https://annapoorani.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/evershopcommerce/evershop/issues"
+    "url": "https://github.com/annapooranicommerce/annapoorani/issues"
   },
-  "homepage": "https://github.com/evershopcommerce/evershop/tree/main/packages/sendgrid",
+  "homepage": "https://github.com/annapooranicommerce/annapoorani/tree/main/packages/sendgrid",
   "dependencies": {
     "@sendgrid/mail": "^8.1.4"
   },

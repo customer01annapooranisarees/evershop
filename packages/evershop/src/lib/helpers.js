@@ -11,7 +11,7 @@ exports.CONSTANTS = Object.freeze({
   MEDIAPATH: path.resolve(rootPath, 'media'),
   NODEMODULEPATH: path.resolve(rootPath, 'node_modules'),
   THEMEPATH: path.resolve(rootPath, 'themes'),
-  CACHEPATH: path.resolve(rootPath, '.evershop'),
-  BUILDPATH: path.resolve(rootPath, '.evershop', 'build'),
+  CACHEPATH: path.resolve(rootPath, '.annapoorani'),
+  BUILDPATH: path.resolve(rootPath, '.annapoorani', 'build'),
   ADMIN_COLLECTION_SIZE: getConfig('admin_collection_size', 20)
 });

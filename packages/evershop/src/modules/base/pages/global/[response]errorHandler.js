@@ -1,8 +1,8 @@
 const { encode } = require('html-entities');
 const {
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (err, request, response, delegate, next) => {

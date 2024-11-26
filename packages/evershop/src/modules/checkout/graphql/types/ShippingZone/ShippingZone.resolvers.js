@@ -1,8 +1,8 @@
-const { select } = require('@evershop/postgres-query-builder');
-const { contries } = require('@evershop/evershop/src/lib/locale/countries');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { select } = require('@annapoorani/postgres-query-builder');
+const { contries } = require('@annapoorani/annapoorani/src/lib/locale/countries');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { camelCase } = require('@annapoorani/annapoorani/src/lib/util/camelCase');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
 
 module.exports = {
   Query: {

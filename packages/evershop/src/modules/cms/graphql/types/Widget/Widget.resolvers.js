@@ -1,10 +1,10 @@
 const uniqid = require('uniqid');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
+const { camelCase } = require('@annapoorani/annapoorani/src/lib/util/camelCase');
 const {
   getEnabledWidgets
-} = require('@evershop/evershop/src/lib/util/getEnabledWidgets');
-const { select } = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/annapoorani/src/lib/util/getEnabledWidgets');
+const { select } = require('@annapoorani/postgres-query-builder');
 const {
   getWidgetsBaseQuery
 } = require('../../../services/getWidgetsBaseQuery');

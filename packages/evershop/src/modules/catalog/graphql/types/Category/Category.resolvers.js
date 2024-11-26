@@ -1,7 +1,7 @@
 const { v4: uuidv4 } = require('uuid');
-const { select, execute } = require('@evershop/postgres-query-builder');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
+const { select, execute } = require('@annapoorani/postgres-query-builder');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
+const { camelCase } = require('@annapoorani/annapoorani/src/lib/util/camelCase');
 const {
   getProductsByCategoryBaseQuery
 } = require('../../../services/getProductsByCategoryBaseQuery');

@@ -1,5 +1,5 @@
-const { getEnv } = require('@evershop/evershop/src/lib/util/getEnv');
-const { UNAUTHORIZED } = require('@evershop/evershop/src/lib/util/httpStatus');
+const { getEnv } = require('@annapoorani/annapoorani/src/lib/util/getEnv');
+const { UNAUTHORIZED } = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
 
 module.exports = (request, response, delegate, next) => {
   const { currentRoute } = request;

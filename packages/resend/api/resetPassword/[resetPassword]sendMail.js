@@ -2,17 +2,17 @@ const path = require('path');
 const fs = require('fs').promises;
 const {
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 const {
   getContextValue
-} = require('@evershop/evershop/src/modules/graphql/services/contextHelper');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+} = require('@annapoorani/annapoorani/src/modules/graphql/services/contextHelper');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 const { Resend } = require('resend');
 const Handlebars = require('handlebars');
-const { getEnv } = require('@evershop/evershop/src/lib/util/getEnv');
-const { getValue } = require('@evershop/evershop/src/lib/util/registry');
+const { getEnv } = require('@annapoorani/annapoorani/src/lib/util/getEnv');
+const { getValue } = require('@annapoorani/annapoorani/src/lib/util/registry');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, delegate, next) => {

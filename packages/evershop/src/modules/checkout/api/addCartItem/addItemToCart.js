@@ -1,10 +1,10 @@
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@annapoorani/postgres-query-builder');
 const {
   INVALID_PAYLOAD,
   INTERNAL_SERVER_ERROR,
   OK
-} = require('@evershop/evershop/src/lib/util/httpStatus');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 const { setContextValue } = require('../../../graphql/services/contextHelper');
 const { getCartByUUID } = require('../../services/getCartByUUID');
 const { saveCart } = require('../../services/saveCart');

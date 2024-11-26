@@ -1,18 +1,18 @@
-const { hookable } = require('@evershop/evershop/src/lib/util/hookable');
+const { hookable } = require('@annapoorani/annapoorani/src/lib/util/hookable');
 const {
   startTransaction,
   commit,
   rollback,
   update,
   select
-} = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 const {
   hashPassword,
   verifyPassword
-} = require('@evershop/evershop/src/lib/util/passwordHelper');
+} = require('@annapoorani/annapoorani/src/lib/util/passwordHelper');
 
 async function updateCustomerPassword(customerId, hash, connection) {
   await update('customer')

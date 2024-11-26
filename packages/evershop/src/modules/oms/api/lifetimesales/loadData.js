@@ -1,6 +1,6 @@
-const { select } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { select } = require('@annapoorani/postgres-query-builder');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 
 /* eslint-disable no-unused-vars */
 module.exports = async function lifetimeSales(

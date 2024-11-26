@@ -1,6 +1,6 @@
-const { select, node } = require('@evershop/postgres-query-builder');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { select, node } = require('@annapoorani/postgres-query-builder');
+const { camelCase } = require('@annapoorani/annapoorani/src/lib/util/camelCase');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 
 module.exports = {
   Query: {

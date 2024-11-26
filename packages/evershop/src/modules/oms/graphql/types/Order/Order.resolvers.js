@@ -1,7 +1,7 @@
-const { select } = require('@evershop/postgres-query-builder');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { select } = require('@annapoorani/postgres-query-builder');
+const { camelCase } = require('@annapoorani/annapoorani/src/lib/util/camelCase');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
 const { getOrdersBaseQuery } = require('../../../services/getOrdersBaseQuery');
 
 module.exports = {

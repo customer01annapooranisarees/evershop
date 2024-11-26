@@ -1,13 +1,13 @@
 const path = require('path');
 const fs = require('fs').promises;
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 const { Resend } = require('resend');
 const Handlebars = require('handlebars');
-const { select } = require('@evershop/postgres-query-builder');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
-const { getEnv } = require('@evershop/evershop/src/lib/util/getEnv');
-const { getValue } = require('@evershop/evershop/src/lib/util/registry');
+const { select } = require('@annapoorani/postgres-query-builder');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
+const { getEnv } = require('@annapoorani/annapoorani/src/lib/util/getEnv');
+const { getValue } = require('@annapoorani/annapoorani/src/lib/util/registry');
 
 module.exports = async function sendOrderConfirmationEmail(data) {
   try {
@@ -51,7 +51,7 @@ module.exports = async function sendOrderConfirmationEmail(data) {
     // Send the email
     const msg = {
       to: emailDataFinal.email,
-      subject: customerRegistered.subject || `Welcome to Evershop`,
+      subject: customerRegistered.subject || `Welcome to annapoorani`,
       from
     };
 

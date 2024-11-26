@@ -1,9 +1,9 @@
 const path = require('path');
 const fs = require('fs').promises;
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
-const { getValueSync } = require('@evershop/evershop/src/lib/util/registry');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { CONSTANTS } = require('@annapoorani/annapoorani/src/lib/helpers');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
+const { getValueSync } = require('@annapoorani/annapoorani/src/lib/util/registry');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
 
 /**
  * @param {Array} files an array of files in the format of {name: String, data: Buffer}

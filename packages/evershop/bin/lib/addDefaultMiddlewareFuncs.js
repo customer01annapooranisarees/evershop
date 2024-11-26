@@ -4,36 +4,36 @@ const session = require('express-session');
 const sessionStorage = require('connect-pg-simple');
 const pathToRegexp = require('path-to-regexp');
 const webpack = require('webpack');
-const { debug } = require('@evershop/evershop/src/lib/log/logger');
+const { debug } = require('@annapoorani/annapoorani/src/lib/log/logger');
 const middleware = require('webpack-dev-middleware');
 const {
   createConfigClient
-} = require('@evershop/evershop/src/lib/webpack/dev/createConfigClient');
-const isDevelopmentMode = require('@evershop/evershop/src/lib/util/isDevelopmentMode');
+} = require('@annapoorani/annapoorani/src/lib/webpack/dev/createConfigClient');
+const isDevelopmentMode = require('@annapoorani/annapoorani/src/lib/util/isDevelopmentMode');
 const {
   isBuildRequired
-} = require('@evershop/evershop/src/lib/webpack/isBuildRequired');
-const publicStatic = require('@evershop/evershop/src/lib/middlewares/publicStatic');
-const themePublicStatic = require('@evershop/evershop/src/lib/middlewares/themePublicStatic');
-const { select } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@annapoorani/annapoorani/src/lib/webpack/isBuildRequired');
+const publicStatic = require('@annapoorani/annapoorani/src/lib/middlewares/publicStatic');
+const themePublicStatic = require('@annapoorani/annapoorani/src/lib/middlewares/themePublicStatic');
+const { select } = require('@annapoorani/postgres-query-builder');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 const {
   setContextValue
-} = require('@evershop/evershop/src/modules/graphql/services/contextHelper');
+} = require('@annapoorani/annapoorani/src/modules/graphql/services/contextHelper');
 const {
   translate
-} = require('@evershop/evershop/src/lib/locale/translate/translate');
-const isProductionMode = require('@evershop/evershop/src/lib/util/isProductionMode');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+} = require('@annapoorani/annapoorani/src/lib/locale/translate/translate');
+const isProductionMode = require('@annapoorani/annapoorani/src/lib/util/isProductionMode');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 const {
   getAdminSessionCookieName
-} = require('@evershop/evershop/src/modules/auth/services/getAdminSessionCookieName');
+} = require('@annapoorani/annapoorani/src/modules/auth/services/getAdminSessionCookieName');
 const {
   getFrontStoreSessionCookieName
-} = require('@evershop/evershop/src/modules/auth/services/getFrontStoreSessionCookieName');
+} = require('@annapoorani/annapoorani/src/modules/auth/services/getFrontStoreSessionCookieName');
 const {
   getCookieSecret
-} = require('@evershop/evershop/src/modules/auth/services/getCookieSecret');
+} = require('@annapoorani/annapoorani/src/modules/auth/services/getCookieSecret');
 
 module.exports = exports = {};
 

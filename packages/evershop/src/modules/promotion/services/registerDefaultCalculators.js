@@ -1,7 +1,7 @@
 /* eslint-disable consistent-return */
-const { select } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { select } = require('@annapoorani/postgres-query-builder');
+const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 const { toPrice } = require('../../checkout/services/toPrice');
 
 module.exports.registerDefaultCalculators =

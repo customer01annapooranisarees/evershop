@@ -2,19 +2,19 @@ const path = require('path');
 const JSON5 = require('json5');
 const uniqid = require('uniqid');
 const { readFileSync } = require('fs');
-const isDevelopmentMode = require('@evershop/evershop/src/lib/util/isDevelopmentMode');
-const isProductionMode = require('@evershop/evershop/src/lib/util/isProductionMode');
+const isDevelopmentMode = require('@annapoorani/annapoorani/src/lib/util/isDevelopmentMode');
+const isProductionMode = require('@annapoorani/annapoorani/src/lib/util/isProductionMode');
 const {
   getRouteBuildPath
-} = require('@evershop/evershop/src/lib/webpack/getRouteBuildPath');
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
-const { getRoutes } = require('@evershop/evershop/src/lib/router/Router');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@annapoorani/annapoorani/src/lib/webpack/getRouteBuildPath');
+const { CONSTANTS } = require('@annapoorani/annapoorani/src/lib/helpers');
+const { getRoutes } = require('@annapoorani/annapoorani/src/lib/router/Router');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
 
 const {
   getEnabledWidgets
-} = require('@evershop/evershop/src/lib/util/getEnabledWidgets');
-const { get } = require('@evershop/evershop/src/lib/util/get');
+} = require('@annapoorani/annapoorani/src/lib/util/getEnabledWidgets');
+const { get } = require('@annapoorani/annapoorani/src/lib/util/get');
 const {
   loadWidgetInstances
 } = require('../../../cms/services/widget/loadWidgetInstances');

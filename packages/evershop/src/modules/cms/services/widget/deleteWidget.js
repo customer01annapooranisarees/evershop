@@ -1,14 +1,14 @@
-const { hookable } = require('@evershop/evershop/src/lib/util/hookable');
+const { hookable } = require('@annapoorani/annapoorani/src/lib/util/hookable');
 const {
   startTransaction,
   commit,
   rollback,
   select,
   del
-} = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 
 async function deleteWidgetData(uuid, connection) {
   await del('widget').where('uuid', '=', uuid).execute(connection);

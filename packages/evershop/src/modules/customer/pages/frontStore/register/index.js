@@ -1,7 +1,7 @@
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
 const {
   translate
-} = require('@evershop/evershop/src/lib/locale/translate/translate');
+} = require('@annapoorani/annapoorani/src/lib/locale/translate/translate');
 const {
   getContextValue,
   setContextValue

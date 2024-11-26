@@ -2,22 +2,22 @@ process.env.ALLOW_CONFIG_MUTATIONS = true;
 const config = require('config');
 const { existsSync, rmSync, mkdirSync } = require('fs');
 const path = require('path');
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
+const { CONSTANTS } = require('@annapoorani/annapoorani/src/lib/helpers');
 const {
   loadModuleRoutes
-} = require('@evershop/evershop/src/lib/router/loadModuleRoutes');
-const { getRoutes } = require('@evershop/evershop/src/lib/router/Router');
+} = require('@annapoorani/annapoorani/src/lib/router/loadModuleRoutes');
+const { getRoutes } = require('@annapoorani/annapoorani/src/lib/router/Router');
 const {
   isBuildRequired
-} = require('@evershop/evershop/src/lib/webpack/isBuildRequired');
-const { buildEntry } = require('@evershop/evershop/bin/lib/buildEntry');
-const { getCoreModules } = require('@evershop/evershop/bin/lib/loadModules');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
-const { lockHooks } = require('@evershop/evershop/src/lib/util/hookable');
-const { lockRegistry } = require('@evershop/evershop/src/lib/util/registry');
+} = require('@annapoorani/annapoorani/src/lib/webpack/isBuildRequired');
+const { buildEntry } = require('@annapoorani/annapoorani/bin/lib/buildEntry');
+const { getCoreModules } = require('@annapoorani/annapoorani/bin/lib/loadModules');
+const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
+const { lockHooks } = require('@annapoorani/annapoorani/src/lib/util/hookable');
+const { lockRegistry } = require('@annapoorani/annapoorani/src/lib/util/registry');
 const {
   validateConfiguration
-} = require('@evershop/evershop/src/lib/util/validateConfiguration');
+} = require('@annapoorani/annapoorani/src/lib/util/validateConfiguration');
 const { compile } = require('./complie');
 const { getEnabledExtensions } = require('../extension');
 const { loadBootstrapScript } = require('../lib/bootstrap/bootstrap');

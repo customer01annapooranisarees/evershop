@@ -1,4 +1,4 @@
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
 const { validateCoupon } = require('./couponValidator');
 const { calculateDiscount } = require('./discountCalculator');
 const { toPrice } = require('../../checkout/services/toPrice');

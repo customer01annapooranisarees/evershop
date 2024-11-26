@@ -1,8 +1,8 @@
 const { join } = require('path');
 const { existsSync, lstatSync, unlinkSync } = require('fs');
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
-const { getValueSync } = require('@evershop/evershop/src/lib/util/registry');
+const { CONSTANTS } = require('@annapoorani/annapoorani/src/lib/helpers');
+const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
+const { getValueSync } = require('@annapoorani/annapoorani/src/lib/util/registry');
 
 /**
  * @param {String} path the file path

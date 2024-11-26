@@ -1,5 +1,5 @@
 {
-  "name": "@evershop/evershop",
+  "name": "@annapoorani/annapoorani",
   "version": "1.2.1",
   "description": "The React Ecommerce platform. Built with React and Postgres. Open-source and free. Fast and customizable.",
   "files": [
@@ -7,23 +7,23 @@
     "src"
   ],
   "bin": {
-    "evershop": "./bin/evershop"
+    "annapoorani": "./bin/annapoorani"
   },
   "scripts": {
     "prepublishOnly": "node prepublish.js",
     "prepack": "node prepublish.js",
-    "dev": "evershop dev",
-    "build": "evershop build",
-    "start": "evershop start",
-    "user:create": "evershop user:create",
-    "user:changePassword": "evershop user:changePassword",
+    "dev": "annapoorani dev",
+    "build": "annapoorani build",
+    "start": "annapoorani start",
+    "user:create": "annapoorani user:create",
+    "user:changePassword": "annapoorani user:changePassword",
     "test": "jest"
   },
-  "author": "The Nguyen (https://evershop.io)",
+  "author": "The Nguyen (https://annapoorani.io)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evershopcommerce/evershop.git"
+    "url": "git+https://github.com/annapooranicommerce/annapoorani.git"
   },
   "keywords": [
     "ecommerce",
@@ -31,9 +31,9 @@
     "cart"
   ],
   "bugs": {
-    "url": "https://github.com/evershopcommerce/evershop/issues"
+    "url": "https://github.com/annapooranicommerce/annapoorani/issues"
   },
-  "homepage": "http://evershop.io/",
+  "homepage": "http://annapoorani.io/",
   "dependencies": {
     "@babel/cli": "^7.25.9",
     "@babel/core": "^7.25.9",
@@ -46,8 +46,8 @@
     "@editorjs/list": "^1.10.0",
     "@editorjs/quote": "^2.6.0",
     "@editorjs/raw": "^2.5.0",
-    "@evershop/editorjs-image": "^1.0.0",
-    "@evershop/postgres-query-builder": "^1.2.0",
+    "@annapoorani/editorjs-image": "^1.0.0",
+    "@annapoorani/postgres-query-builder": "^1.2.0",
     "@graphql-tools/load-files": "^6.6.1",
     "@graphql-tools/merge": "^8.3.5",
     "@graphql-tools/schema": "^9.0.3",

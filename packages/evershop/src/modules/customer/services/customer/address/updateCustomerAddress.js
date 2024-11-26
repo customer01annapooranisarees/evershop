@@ -1,15 +1,15 @@
-const { hookable } = require('@evershop/evershop/src/lib/util/hookable');
-const { getValue } = require('@evershop/evershop/src/lib/util/registry');
+const { hookable } = require('@annapoorani/annapoorani/src/lib/util/hookable');
+const { getValue } = require('@annapoorani/annapoorani/src/lib/util/registry');
 const {
   startTransaction,
   commit,
   rollback,
   update,
   select
-} = require('@evershop/postgres-query-builder');
+} = require('@annapoorani/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@annapoorani/annapoorani/src/lib/postgres/connection');
 const { validateAddress } = require('./addressValidator');
 
 async function updateCustomerAddressData(uuid, data, connection) {
